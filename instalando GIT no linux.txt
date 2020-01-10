@@ -1,0 +1,10 @@
+1- Abre o terminal 
+2- sudo apt-get update
+3- sudo apt-get install git
+4- git config --global user.name "jeferson chagas"
+5- git config --global user.email "jeferson_chagas25@hotmail.com" 
+
+6- ls -a
+7- cat .gitconfig -> mostra as configurações de nome e email
+
+8- 
