@@ -1,0 +1,109 @@
+1- abre o git bash 
+2- faz a configuração de nome e email
+
+ - digita no prompt
+ - git config --global user.name "jeferson chagas"
+ - git confit --global user.email "jeferson_chagas25@hotmail.com"
+
+ - digita clear para limpar a tela
+
+3- se quiser trocar o editor de texto
+ - git config --global core.editor "caminho do editor"
+
+4- criar uma variavel do sistema para o editor que voce escolheu
+ - copia o endereço do editor, em atalho, propriedades
+ - abre painel de controle, sistema e segurança, sistema, avançado, variaveis de ambiente
+
+5- so é digitar o nome do editor que voce colocou como variavel e dar enter
+6- o comando pwd exibe o caminho onde voce estar no prompt
+7- mkdir criar uma pasta no diretorio que voce estiver apontando
+8- o comando touch, para um arquivo na pasta. touch exemplo.txt
+
+9- para criar um repositorio local, usa o comando ' git init ' dentro da pasta que deseja fazer esse repositorio
+
+10- projeto -> git add, coloca tudo dentro do container que vai ser enviado para o .git
+  - git status, verifica o que está armazenado no container
+  - git commit, identifica e armazena o container no repositorio local (.git)
+  - (.git) é um repositorio e dentro desse repositorio será armazenado varios containers, que serão identificados. Dentro desses containers, teremos o conteudo do projeto na presente data/autor
+
+11- duas formas de usar o git add
+ - git add a.txt -> essa forma adicionar apenas o arquivo especifico no container 
+ - git add * -> essa forma adiciona no container todos os arquivos que estiverem dentro desta pasta
+ - git add . -> essa forma adiciona no container todos os arquivos que estiverem dentro desta pasta
+
+
+12- fazendo commit
+ - git commit -m "comentario qualquer"
+
+ - obs: m significa comentario no linux
+
+13- git log, tem a identificação dos commits, como o nome criado em hashm data, autor, e etc.
+  - git log --oneline -> gerar um log mais simples 
+
+14- git log --graph -> gera um grafo de log.
+
+15- git commit -am "a.txt foi alterado" -> com o comando usando -am, você faz o add e o commit ao mesmo tempo
+
+16- git branch, este comando diz em qual ramificação voce está no projeto
+
+17- git checkout "nome do hash" -> rastrea a mudança no commit escolhido atras do hash
+
+18- git checkout master -> depois que voce rastrea a mudança no commit escolhido, se quiser voltar para a ultima versão, usa esse comando, e ele volta para a ramificação principal, ultima atualização feita;
+
+19- git diff -> este comando mostra o que foi excluido e o que foi acrescentado no projeto, antes de fazer o commit. uma forma de fazer uma revisão das alterações. 
+  - quando voce coloca o arquivo no container, este comando não funciona mais.
+
+20- git checkout "nome do arquivo", desfaz as mudanças de determinado arquivo
+
+21- git restore --staged "nome do arquivo", retira o arquivo do container
+
+22- git reset --hard "hash", apontando para o ultimo hash antes da linha que voce quer apagar -> remove um commit
+
+23 - git checkout -b nova_branch -> cria uma nova ramificação, uma nova branch
+
+24- git log --oneline --graph --all -> ver log de commits de todas as branchs
+
+25- git merge teste_r -> fazeR união da branch teste_r com a branch master
+
+26- enviando um projeto para o github
+
+27- git remote -> verifica se existe algum projeto remoto associado a esse projeto. ex: github
+
+28- git remote add origin https://github.com/jefersoniw/curso_git.git 
+
+  - comando para preparar a copia do repositorio local, para o repositorio em nuvem, github ou gitlab
+
+29- git remote -v -> detalhes do link remoto que vai copiar para o repositorio em nuvem
+
+30- git push origin master -> faz a copia do .git para o github
+
+31- git clone e o link que tem no github na opção clone or download para baixar o repositorio que ta no github para a sua maquina local
+  - git clone https://github.com/jefersoniw/curso_git.git
+
+32- git push -> este comando envia o projeto no repositorio local .git para o github
+
+33- git pull -> sincronizar, baixa do github para o repositorio local
+
+34- git fetch -> download das alterações do repositorio remoto para analise de conflitos, quando dois repositorios locais de lugares diferentes dão conflito. é igual ao git pull, porem ele não faz o merge
+
+35- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
