@@ -65,7 +65,7 @@
 
 25- git merge teste_r -> fazeR união da branch teste_r com a branch master
 
-26- enviando um projeto para o github
+26- ENVIANDO PROJETO PARA O GITHUB
 
 27- git remote -> verifica se existe algum projeto remoto associado a esse projeto. ex: github
 
@@ -75,7 +75,7 @@
 
 29- git remote -v -> detalhes do link remoto que vai copiar para o repositorio em nuvem
 
-30- git push origin master -> faz a copia do .git para o github
+30- git push -u origin master -> faz a copia do .git para o github
 
 31- git clone e o link que tem no github na opção clone or download para baixar o repositorio que ta no github para a sua maquina local
   - git clone https://github.com/jefersoniw/curso_git.git
