@@ -1,0 +1,35 @@
+git init
+
+{{ codigo }}
+
+git add .
+
+git commit -m ""
+
+git remote
+
+git push -u origin master
+
+------------------------------------
+
+git flow init
+
+git flow feature start iniciando-feature
+
+{{ codigo }}
+
+git add .
+
+git commit -m ""
+
+git flow feature finish iniciando-feature
+
+git flow release start 0.0.0
+
+git flow release finish 0.0.0
+
+{{ mesmo nome do commit }}
+
+git checkout master
+
+git push
